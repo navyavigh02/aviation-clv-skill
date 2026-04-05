@@ -1,0 +1,21 @@
+================================================================================
+AVIATION CLV — ALGORITHM COMPARISON TABLE
+================================================================================
+Algorithm        k    Silhouette   Davies-Bouldin   Calinski-H   Balanced  
+--------------------------------------------------------------------------------
+kmeans           3    0.3305       0.9293           342.91       False     
+kmeans           4    0.3329       1.0304           340.11       False      ◄ BEST
+kmeans           5    0.3083       1.0132           346.22       False     
+
+VALIDATION THRESHOLDS:
+  Silhouette: >0.70 = excellent | >0.50 = good | >0.25 = acceptable | <0.25 = poor
+  Davies-Bouldin: lower is better (ideal < 1.0)
+  Calinski-Harabasz: higher is better
+  Cluster balance: no segment < 5% or > 40% of customers
+
+SELECTED: KMEANS k=4
+  Silhouette score : 0.3329 (acceptable)
+  Davies-Bouldin   : 1.0304
+  Calinski-Harabasz: 340.11
+  Cluster sizes    : [58.6, 19.4, 14.9, 7.2]
+================================================================================

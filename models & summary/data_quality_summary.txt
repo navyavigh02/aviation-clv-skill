@@ -1,0 +1,23 @@
+======================================================================
+AVIATION CUSTOMER ANALYTICS — DATA QUALITY REPORT
+======================================================================
+Status        : PASS
+Errors        : 0
+Warnings      : 0
+
+--- CUSTOMER_MASTER ---
+  Rows        : 2,000
+
+--- FLIGHT_TRANSACTIONS ---
+  Rows        : 34,299
+  On-time %   : 82.23%
+  Fare (INR)  : min=8,003  median=52,635  max=499,956
+
+--- CUSTOMER_FEEDBACK ---
+  Rows        : 10,299
+  Response %  : 30.03%
+  Recommend % : 54.42%
+  NPS         : mean=6.92  min=2.0  max=10.0
+
+Exit code: 0  (PASS)
+======================================================================
